@@ -1,0 +1,575 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Montserrat:wght@300&display=swap');
+
+
+
+
+body{
+   
+    height: 100;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    padding: 5px;
+   
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+/*nav*/
+.nav_bar{
+   
+    display: flex;
+    
+    
+    justify-content: space-between;
+   
+    align-items: center;
+    
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    font-weight: 600;
+
+}
+.nav-left{
+    display: flex;
+    gap: 15px;
+    
+
+}
+.nav-left i{
+    color: black;
+    
+
+}
+
+.nav-right input{
+    width: 110px;
+    border-radius: 10px;
+    
+    color: black;
+    border: solid;
+    padding: 3px 5px;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+    
+
+}
+
+/*review*/
+
+.heading-book{
+    color: rgb(55, 53, 1);
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+.book-review{
+    margin-top: 10px;
+    
+    width: 97vw;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    
+   
+  
+
+}
+.book-review img{
+    height: 43%;
+    width: 60%;
+    object-fit: cover;
+}
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 40vh;
+    border-radius: 2px;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    background-color: rgb(219, 218, 217);
+   
+    text-transform: capitalize;
+    padding: 10px 10px;
+}
+.title z{
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: transparent;
+    
+    font-family: 'Montserrat', sans-serif;
+}
+.title y span{
+    font-weight: 600;
+    color: black;
+    background-color: transparent;
+}
+.title y{
+    color: goldenrod;
+    background-color: transparent;
+}
+.title i, .title a{
+    background-color: transparent;
+}
+.title button{
+    border: solid;
+    border-color: black;
+    border-radius: 2px;
+    background-color: goldenrod;
+}
+.synopsis{
+    margin-top: 40px;
+    width: 95vw;
+    height: 30vh;
+   
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(221, 225, 225);
+    font-size: 0.9rem;
+
+}
+.synopsis h{
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+  
+    background-color: transparent;
+   
+    text-transform: capitalize;
+}
+
+
+.reviews{
+    width: 95vw;
+    border-top: solid;
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+  
+    
+   
+}
+.div1{
+    display: flex;
+    margin-top: 10px;
+   
+    width: 95vw;
+    justify-content: space-between;
+    align-items: center;
+    
+    flex-direction: row;
+   
+}
+.div1 img{
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.name t{
+    color: rgb(105, 106, 107);
+    font-size:0.6rem;
+}
+.likes{
+    display: flex;
+    gap: 10px;
+    font-size: 0.9rem;
+    flex-direction: row;
+    margin-right: 10px;
+}
+.div2{
+    width: 95vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 25px;
+
+}
+.div3{
+    margin-bottom: 20px;
+}
+.comment{
+    display: flex;
+    flex-direction: column;
+    width: 95vw;
+    border-top: solid;
+    
+   
+   
+   
+
+}
+.comment input{
+    width: 93vw;
+    border: solid;
+    border-width: 2px;
+    border-radius: 3px;
+    color: black;
+    height: 40px;
+    margin-top: 20px;
+    
+    
+}
+.comment button{
+    border: solid;
+    border-radius: 2px;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    width: 70px;
+    padding: 5px;
+    font-size: 0.7rem;
+    background-color: rgb(1, 1, 1);
+}
+
+
+
+
+/*book-list*/
+.book-list{
+   margin-top: 190px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   font-size: 1.6rem;
+   text-transform: capitalize;
+   font-weight: 500;
+
+
+
+}
+.heading{
+    color: rgb(2, 84, 84);
+    font-size: 1.6rem;
+    text-transform: capitalize;
+}
+.books{
+    height: 33vh;
+    width: 95vw;
+    border-top: solid;
+    border-color: rgb(136, 136, 136);
+    border-width: 2px;
+    margin-top: 35px;
+   
+}
+.books-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    
+    
+
+}
+.book-img {
+    width: 30vw;
+    height: 18vh;
+    
+}
+.book-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.book-dtl{
+    width: 65vw;
+    
+    padding-top: 7px;
+    padding-left: 5px;
+    justify-content: center;
+    
+ 
+    
+    display: flex;
+    flex-direction: column;
+}
+.book-dtl w{
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    color: rgb(86, 86, 86);
+    width: 60vw;
+    
+}
+.book-dtl h, .book-dtl a{
+    width: 60vw;
+    font-size: 1.2rem;
+    text-decoration: none;
+
+}
+.book-dtl x{
+    font-size: 1rem;
+    width: 60vw;
+}
+.book-dtl y{
+    font-size: 0.7rem;
+    display: flex;
+    margin-right: 30px;
+    color: goldenrod;
+    justify-content: flex-end;
+}
+.book-dtl x i{
+    color: goldenrod;
+}
+
+.books-summ{
+    width: 95vw;
+    
+    height: 15vh;
+    padding: 5px;
+}
+
+.summary{
+    font-size: 0.8rem;
+    height: 10vh;
+    
+    
+}
+.reviewd-by{
+    font-size: 0.9rem;
+   
+   
+}
+.reviewd-by n{
+    color: black;
+}
+.reviewd-by m{
+    color: goldenrod;
+}
+.laptop-view{
+    display: none;
+}
+
+
+
+
+@media (min-width:480px) {
+    .main{
+        display: none;
+    }
+    .laptop-view{
+        display: block;
+       
+    }
+    .nav_bar{
+        color: black;
+        background-color: rgb(213, 211, 211);
+       
+       position: fixed;
+       width: 100%;
+       top: 0px;
+       
+        
+    }
+    .search input{
+        width: 200px;
+       
+        padding: 8px;
+        border-radius: 20px;
+        margin-right: 20px;
+        border:solid;
+    }
+    
+
+    .centre{
+        display: flex;
+        margin-top: 50px;
+       
+        flex-direction: row;
+        height: 1000px;
+        gap: 70px;
+       
+        
+        padding: 20px 8vw;
+    }
+    
+    .centre-img{
+       
+        height: 300px;
+        width: 200px;
+        position: fixed;
+        
+       
+        
+        
+        
+
+    }
+    .centre-img img{
+        height: 300px;
+        width: 200px;
+        object-fit: cover;
+        border-radius: 0px 10px 10px 0px;
+    }
+    .book-info{
+       
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+        text-transform: capitalize;
+    }
+    .book-info h{
+        font-size: 1.1rem;
+    }
+    .book-info span{
+        font-weight: 600;
+    }
+    .book-info button{
+        font-size: 1rem;
+        width: 100px;
+        background-color: black;
+        color: white;
+        border: black;
+        padding: 5px;
+        border-radius: 3px;
+        text-transform: capitalize;
+    }
+
+
+    .centre-right{
+        
+        display: flex;
+        flex-direction: column;
+        margin-left: 250px;
+        
+        height: 1100px;
+    }
+    .centre-right c{
+        font-size: 1.5rem;
+        text-transform: capitalize;
+    }
+    .centre-right a{
+        font-size: 2.6rem;
+        font-weight: 800;
+
+    }
+    .centre-right b{
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: goldenrod;
+        text-transform: capitalize;
+    }
+    .like-rating{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        font-size: 1.4rem;
+    }
+    .summ{
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+        gap: 10px;
+        
+    }
+    .summ t{
+        font-size: 1.3rem;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    .rating-reviws{
+       display: flex;
+       flex-direction: row;
+       gap: 70px;
+       margin-top: 20px;
+       
+       border-bottom: solid;
+       border-width: 2px;
+       border-color: rgb(168, 169, 169);
+    }
+    .centre-right h1{
+        font-size: 2rem;
+        text-transform: capitalize;
+        margin-top: 50px;
+    }
+    .rating-reviws img{
+        height: 60px;
+        width: 60px;
+        object-fit: cover;
+        border-radius: 50%;
+
+    }
+    .review-left{
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        align-items: center;
+        margin-bottom: 20px;
+        font-weight: 600;
+       
+    }
+    .review-right{
+        
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .review-right y{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .review-right x{
+        color: goldenrod;
+    }
+
+
+    .footer{
+        margin-top: 400px;
+    }
+    .leave-review{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .leave-review h{
+        font-size: 1.3rem;
+    }
+    .leave-review input{
+        height: 40px;
+        background-color: rgb(255, 255, 255);
+        border: solid;
+        border-radius: 10px;
+        padding: 0px 10px;
+       
+    }
+    .leave-review button{
+        width: 100px;
+        font-family: 1.3rem;
+        padding: 7px;
+       
+        background-color: black;
+        color: white;
+        border: black;
+        border-radius: 3px;
+    }
+
+  
+  
+
+    
+
+
+}
+
+
+
